@@ -17,7 +17,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     // characters
     let floor = SKSpriteNode(imageNamed: "blue")
-    let player = SKSpriteNode(imageNamed: "orage")
+    let player = SKSpriteNode(imageNamed: "orange")
     var enemies = [SKSpriteNode]()
     
     // timers
