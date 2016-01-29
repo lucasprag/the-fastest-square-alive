@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0359FC351C5BEC3700576853 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0359FC341C5BEC3700576853 /* GameOverScene.swift */; };
 		03FDF3571C5A360700121CDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FDF3561C5A360700121CDB /* AppDelegate.swift */; };
 		03FDF3591C5A360700121CDB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 03FDF3581C5A360700121CDB /* GameScene.sks */; };
 		03FDF35B1C5A360700121CDB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FDF35A1C5A360700121CDB /* GameScene.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0359FC341C5BEC3700576853 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		03FDF3531C5A360700121CDB /* the-fastest-square-alive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "the-fastest-square-alive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03FDF3561C5A360700121CDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03FDF3581C5A360700121CDB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				03FDF3611C5A360700121CDB /* Assets.xcassets */,
 				03FDF3631C5A360700121CDB /* LaunchScreen.storyboard */,
 				03FDF3661C5A360700121CDB /* Info.plist */,
+				0359FC341C5BEC3700576853 /* GameOverScene.swift */,
 			);
 			path = "the-fastest-square-alive";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			files = (
 				03FDF35B1C5A360700121CDB /* GameScene.swift in Sources */,
 				03FDF35D1C5A360700121CDB /* GameViewController.swift in Sources */,
+				0359FC351C5BEC3700576853 /* GameOverScene.swift in Sources */,
 				03FDF3571C5A360700121CDB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +299,7 @@
 				03FDF36B1C5A360700121CDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
