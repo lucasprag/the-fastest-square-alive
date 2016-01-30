@@ -55,9 +55,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         }
     }
     
-    func didBeginContact(contact: SKPhysicsContact) {
-        print("1. \(contact.bodyA.node!.name) and 2. \(contact.bodyB.node!.name)")
-        
+    func didBeginContact(contact: SKPhysicsContact) {      
         if (contact.bodyA.node!.name == "player" && contact.bodyB.node!.name == "enemy") {
             gameOver()
         }
