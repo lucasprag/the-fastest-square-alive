@@ -127,9 +127,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         floor.physicsBody?.categoryBitMask = Physics.Character
         floor.physicsBody?.collisionBitMask = Physics.Floor
         
-        // notify then the floor collides
-        floor.physicsBody?.collisionBitMask = Physics.Floor
-        
         // this add the floor to the scene in order to appear in the screen
         addChild(floor)
     }
